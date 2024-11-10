@@ -1,6 +1,6 @@
-// src/types/aos.d.ts
+/// src/types/aos.d.ts
 declare module 'aos' {
-    const AOS: any;
-    export default AOS;
-  }
-  
+  export function init(options?: object): void;
+  export function refresh(): void;
+  export function refreshHard(): void;
+}
