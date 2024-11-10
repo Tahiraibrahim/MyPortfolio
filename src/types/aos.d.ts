@@ -1,6 +1,6 @@
 // src/types/aos.d.ts
 declare module 'aos' {
-    const AOS: any;
+    const AOS: unknown;
     export default AOS;
   }
   
